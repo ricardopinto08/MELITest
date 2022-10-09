@@ -1,0 +1,4 @@
+.env
+MELI.db
+__pycache__/*
+privateKey.pem
