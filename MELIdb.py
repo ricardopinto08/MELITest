@@ -86,7 +86,7 @@ def populate_tables():
             print(e)
     db.commit()
     sql_sentence_users = "INSERT INTO users VALUES (?, ?, ?)"
-    
+    '''
     #Ejemplo comando crear usuario
     values_users = [1, "juan.rodriguez", hashlib.sha256("PASSWORDSECURE".encode('utf-8')).hexdigest()]
     try:
@@ -95,5 +95,6 @@ def populate_tables():
         print(e)
     
     db.commit()
+    '''
     return True
 
